@@ -57,14 +57,14 @@ instance on which we are operating. For example:
 ```py
 class Person:
 
-  def __init__(age = 0):
-    @age = age
+  def __init__(self, age=0):
+    self.age = age
 
   def birthday(self):
     self.age += 1
 ```
 
-Follow along with the specs in `lib/testing/cash_register_test.py`. Reading
+Follow along with the tests in `lib/testing/cash_register_test.py`. Reading
 along with what the tests are looking for can be really helpful!
 
 Take it one step at a time!
