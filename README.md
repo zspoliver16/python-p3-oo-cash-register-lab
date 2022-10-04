@@ -78,13 +78,3 @@ provides methods for changing an Integer to a Float and vice versa.
 transaction from the total. You'll need to make an additional attribute and keep
 track of that last transaction amount somehow. In what method of the class are
 you working with an individual item?
-
-## Resources
-
-- [String `replace()` method][replace]
-- [String `split()` method][split]
-- [re module][re]
-
-[replace]: https://docs.python.org/3/library/stdtypes.html?highlight=replace#str.replace
-[split]: https://docs.python.org/3/library/stdtypes.html?highlight=split#str.split
-[re]: https://docs.python.org/3/library/re.html
