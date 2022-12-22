@@ -80,3 +80,9 @@ provides methods for changing an Integer to a Float and vice versa.
 transaction from the total. You'll need to make an additional attribute and keep
 track of that last transaction amount somehow. In what method of the class are
 you working with an individual item?
+
+**Hint #4:** Python handles mutable default values for arguments differently
+than it handles immutable default values. This means that you should usually not
+set default values for lists, dictionaries, and instances of classes. You can
+learn more on this quirk in Python's documentation on [More Control Flow Tools
+](https://docs.python.org/3/tutorial/controlflow.html#default-argument-values).
