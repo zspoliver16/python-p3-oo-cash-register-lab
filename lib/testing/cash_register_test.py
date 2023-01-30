@@ -58,7 +58,7 @@ class TestCashRegister:
         self.reset_register_totals()
 
     def test_apply_discount_success_message(self):
-        '''returns success message with updated total'''
+        '''prints success message with updated total'''
         captured_out = io.StringIO()
         sys.stdout = captured_out
         self.cash_register_with_discount.add_item("macbook air", 1000)
@@ -75,7 +75,7 @@ class TestCashRegister:
         self.reset_register_totals()
 
     def test_apply_discount_when_no_discount(self):
-        '''returns a string error message that there is no discount to apply'''
+        '''prints a string error message that there is no discount to apply'''
         captured_out = io.StringIO()
         sys.stdout = captured_out
         self.cash_register.apply_discount()
